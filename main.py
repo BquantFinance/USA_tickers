@@ -384,8 +384,5 @@ st.markdown(f"""
         <a href="https://bquantfinance.com" target="_blank">🌐 Website</a> • 
         <a href="https://substack.com/@bquantfinance" target="_blank">📧 Newsletter</a>
     </p>
-    <p style="font-size: 0.8rem; color: #9ca3af; margin-top: 1rem;">
-        Made with ❤️ for the quantitative finance community
-    </p>
 </div>
 """, unsafe_allow_html=True)
