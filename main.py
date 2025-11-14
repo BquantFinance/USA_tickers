@@ -193,7 +193,8 @@ if 'Market Category' in filtered.columns:
 st.dataframe(
     filtered[display_cols].sort_values('Symbol').head(show_rows),
     use_container_width=True,
-    height=500
+    height=500,
+    hide_index=True
 )
 
 # ==================== SINGLE DOWNLOAD SECTION ====================
